@@ -16,22 +16,24 @@ Future Scope:<br />
 
 Package Structure :<br />
 
-src<br />
---- main<br />
-    --- java<br />
-        --- com.ginmon.api<br />
-            --- configuration<br />
-            --- controllers<br />
-            --- domains<br />
-            --- exceptions<br />
-            --- repositories<br />
-            --- services<br />
-            --- util<br />
-    --- resources<br />
---- test<br />
-    --- java<br />
-        --- com.ginmin.api<br />
-            --- controllers<br />
+.
++-- src
+    +-- main
+    |    +-- java
+    |    |    +-- com.ginmon.api
+    |    |       +-- configuration
+    |    |       +-- controllers
+    |    |       +-- domains
+    |    |       +-- exceptions
+    |    |       +-- repositories
+    |    |       +-- services
+    |    |       +-- util
+    |    +-- resources
+    +-- test
+         +-- java
+            +-- com.ginmon.api
+                +-- controllers
+
 
 Table Structures :<br />
 1. repository_tbl<br />

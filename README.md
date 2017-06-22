@@ -1,20 +1,20 @@
 # githubapi
 Ginmon Test
 
-Technology Stack :
-Java 8
-Spring Boot
-Spring Data JPA
-Spring Retry
-SQL Server
-lombok (Used only for Logging Purpose)
-log4j
+Technology Stack :<br />
+Java 8<br />
+Spring Boot<br />
+Spring Data JPA<br />
+Spring Retry<br />
+SQL Server<br />
+lombok (Used only for Logging Purpose)<br />
+log4j<br />
 
-Future Scope:
-More Unit Test Coverage
-Solution to advanced problem
+Future Scope:<br />
+More Unit Test Coverage<br />
+Solution to advanced problem<br />
 
-Package Structure :
+Package Structure :<br />
 
 src
 --- main

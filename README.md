@@ -2,63 +2,63 @@
 Ginmon Test
 
 Technology Stack :<br />
-Java 8<br />
-Spring Boot<br />
-Spring Data JPA<br />
-Spring Retry<br />
-SQL Server<br />
-lombok (Used only for Logging Purpose)<br />
-log4j<br />
+    Java 8<br />
+    Spring Boot<br />
+    Spring Data JPA<br />
+    Spring Retry<br />
+    SQL Server<br />
+    lombok (Used only for Logging Purpose)<br />
+    log4j<br />
 
 Future Scope:<br />
-More Unit Test Coverage<br />
-Solution to advanced problem<br />
+    More Unit Test Coverage<br />
+    Solution to advanced problem<br />
 
 Package Structure :<br />
 
-src
---- main
-    --- java
-        --- com.ginmon.api
-            --- configuration
-            --- controllers
-            --- domains
-            --- exceptions
-            --- repositories
-            --- services
-            --- util
-    --- resources
---- test
-    --- java
-        --- com.ginmin.api
-            --- controllers
+src<br />
+--- main<br />
+    --- java<br />
+        --- com.ginmon.api<br />
+            --- configuration<br />
+            --- controllers<br />
+            --- domains<br />
+            --- exceptions<br />
+            --- repositories<br />
+            --- services<br />
+            --- util<br />
+    --- resources<br />
+--- test<br />
+    --- java<br />
+        --- com.ginmin.api<br />
+            --- controllers<br />
 
-Table Structures :
-1. repository_tbl
-2. owner_tbl (Will contain login name , avatar URL etc)
+Table Structures :<br />
+1. repository_tbl<br />
+2. owner_tbl (Will contain login name , avatar URL etc)<br />
 
-How To Run :
-1. Create connection to DB and Database
-2. update required credentials in application.properties file
-3. Clone project from GitHub
+How To Run :<br />
+1. Create connection to DB and Database<br />
+2. update required credentials in application.properties file<br />
+3. Clone project from GitHub<br /><br />
 4. Run GitHubRestApiApplication.java file (It will create all required tables automatically, for new Strategy for creating
-tables is 'create-drop' which will create and drop tables every time when we will restart server)
+tables is 'create-drop' which will create and drop tables every time when we will restart server)<br />
 
-Endpoints:
-1. create and display github repository metadata
- -- It will take data from GitHub API and will import it in SQL Server DB and then we will display it in JSON format.
- URL : http://localhost:8080/github/repositories/owner/:owner/repository/:repository
- Method : POST
+Endpoints:<br /><br />
+1. create and display github repository metadata<br />
+ -- It will take data from GitHub API and will import it in SQL Server DB and then we will display it in JSON format.<br />
+ URL : http://localhost:8080/github/repositories/owner/:owner/repository/:repository<br />
+ Method : POST<br />
 
-2. get github repository metadata by name
- -- display metadata by repository name
- URL : http://localhost:8080/github/repositories/repository/:repository
- Method :  GET
+2. get github repository metadata by name<br />
+ -- display metadata by repository name<br />
+ URL : http://localhost:8080/github/repositories/repository/:repository<br />
+ Method :  GET<br />
 
-3. get all github repository metadata
- -- display all github repository metadata
- URL : http://localhost:8080/github/repositories
- Method : GET
+3. get all github repository metadata<br />
+ -- display all github repository metadata<br />
+ URL : http://localhost:8080/github/repositories<br />
+ Method : GET<br />
 
 
 

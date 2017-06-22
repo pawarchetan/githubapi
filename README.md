@@ -14,25 +14,6 @@ Future Scope:<br />
     More Unit Test Coverage<br />
     Solution to advanced problem<br />
 
-Package Structure :<br />
-
-.
-+-- src
-    +-- main
-    |    +-- java
-    |    |    +-- com.ginmon.api
-    |    |       +-- configuration
-    |    |       +-- controllers
-    |    |       +-- domains
-    |    |       +-- exceptions
-    |    |       +-- repositories
-    |    |       +-- services
-    |    |       +-- util
-    |    +-- resources
-    +-- test
-         +-- java
-            +-- com.ginmon.api
-                +-- controllers
 
 
 Table Structures :<br />

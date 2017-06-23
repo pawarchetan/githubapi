@@ -1,5 +1,4 @@
 # githubapi
-Ginmon Test
 
 Technology Stack :<br />
     Java 8<br />
